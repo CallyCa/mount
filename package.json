@@ -1,0 +1,46 @@
+{
+  "name": "nodeos-mount",
+  "description": "Async mount / umount system devices",
+  "main": "./mount",
+  "os": [
+    "linux",
+    "darwin",
+    "!win32"
+  ],
+  "keywords": [
+    "mount",
+    "linux",
+    "device",
+    "async"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/CallyCa/nodeos-mount",
+  "bugs": "https://github.com/CallyCa/nodeos-mount/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CallyCa/nodeos-mount.git"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "author": "CallyCa",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^3.2.4",
+    "nan": "^2.16.0"
+  },
+  "devDependencies": {
+    "mocha": "~5.2.0",
+    "chai": "~4.3.6",
+    "grunt": "~1.5.3",
+    "grunt-mocha-test": "~0.13.3",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-node-gyp": "~5.0.0",
+    "q": "~1.5.1"
+  }
+}
