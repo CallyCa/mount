@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const detectSeries = require("async").detectSeries;
 
-const _binding = require("../../build/Release/mount");
+const _binding = require("./build/Release/mount");
 
 const IS_LINUX = require("os").platform() === "linux";
 

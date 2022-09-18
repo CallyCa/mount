@@ -4,7 +4,7 @@
 
 const chai = require("chai");
 const expect = chai.expect;
-const mount = require("../src/js/mount");
+const mount = require("../mount");
 
 const path = require("path");
 const fs = require("fs");

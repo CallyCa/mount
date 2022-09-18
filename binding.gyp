@@ -1,8 +1,8 @@
 {
 	"targets": [
 		{
-			"target_name": "src/gcc/mount",
-			"sources": [ "src/gcc/mount.cc" ],
+			"target_name": "mount",
+			"sources": [ "mount.cc" ],
 			"include_dirs": [ 
        			"<!(node -e \"require('nan')\")" 
           	]

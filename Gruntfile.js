@@ -9,7 +9,7 @@ module.exports = function(grunt){
         pkg : grunt.file.readJSON("package.json"),
         watch : {
             mocha : {
-                files : ["src/gcc/mount.cc", "src/js/mount.js", "test/**/*.js"],
+                files : ["mount.cc", "mount.js", "test/**/*.js"],
                 tasks : ["gyp", "mochaTest:test"]
             }
         },
