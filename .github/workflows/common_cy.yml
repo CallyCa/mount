@@ -22,6 +22,6 @@ jobs:
     - name: Node.js Setup
       uses: actions/setup-node@v2
       with:
-        node-version: lts/dubnium
+        node-version: lts/fermium
     - name: Installation of Node.js dependencies
       run: npm i
